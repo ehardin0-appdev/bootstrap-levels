@@ -1,0 +1,34 @@
+.base-button {
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fancy-button {
+  background-color: blue;
+  color: white;
+}
+
+.fancy-button:hover {
+  background-color: darkblue;
+}
+
+.fancy-button:active {
+  background-color: dodgerblue;
+}
+
+.secondary-button {
+  background-color: grey;
+  color: white;
+}
+
+.secondary-button:hover {
+  background-color: green;
+}
+
+.secondary-button:active {
+  background-color: dodgerblue;
+}
